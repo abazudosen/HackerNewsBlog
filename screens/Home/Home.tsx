@@ -9,7 +9,6 @@ import React, { useEffect, useState } from "react";
 
 import { getStory, getStoryIds } from "../../data/api";
 import Story from "../../components/Story";
-import useInfiniteScroll from "../../hooks/useInfiniteScroll";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(false);
